@@ -1,0 +1,27 @@
+
+***** Zadanie 11.9 (hierarchia dziedziczenia "Package") *****
+
+Program do wyswietlana danych osobowych nadawcy i adresata oraz do 
+obliczasnia kosztow uslug w zaleznosci od opcji przesylki.
+Klasa Package jest klasa bazowa w hierarchii dziedziczenia. Posiada ona 
+konstruktor, defaultowy destruktor oraz zestaw pol i metod (generalnie 
+settery i gettery). Nastepnie zaimplementowano klasy pochodne: TwoDayPackage 
+oraz OvernightPackage. Klasa TwoDayPackage jest odpowiedzialna za dostawe w 
+ciagu 2 dni. Posiada metode calculateCost(), ktora oblicza koszt przesylki w 
+nastepujacy sposob. Podana mase (w uncjach) mnozy przez koszt 
+przesylki/uncje (1.05 PLN) oraz dodaje cene za usluge (8.00 PLN). 
+Natomiast klasa OvernightPackage jest odpowiedzialna za dostawe ekspresowa.
+Metoda calculateCost() (z klasy OvernightPackage), podana mase (w uncjach) 
+mnozy przez koszt przesylki/uncje (1.50 PLN) oraz dodaje iloczyn 
+masy przesylki i koszt uslugi/uncje (1.10 PLN). 
+Jesli chcemy zobaczyc przyklad dzialania programu, wystarczy dopisac slowo 
+example jako parametr wywolania programu:
+./package example
+Natomiast jesli nie podajemy zadnego parametru wywolania, mozemy wprowadzac 
+wlasne dane. Program poprosi o wybor opcji: (Dostawa ekspresowa lub w ciagu 
+2 dni) oraz poprosi podac mase przesylki. Dane osobowe sa wczytywane z 
+plikow sender.txt (dane nadawcy) oraz recipient.txt (dane adresata). Jesli 
+chcemy wprowadzic inne dane, wystarczy je podmienic w plikach tekstowych:
+./package 
+
+
