@@ -1,0 +1,19 @@
+
+***** Zadanie 18.4 (implementacja szablonu klasy "Array") *****
+
+Program pobiera od uzytkownika dwie liczby calkowite - rozmiary tablic. 
+Poczatkowo elementy tablicy sa zainicjalizowane 0. Nastepnie wprowadzamy 
+liczby, ktorymi chcemy ponownie zainicjalizowac nasze tablice. W kolejnym 
+kroku program demostruje uzycie przeladowanych operatorow przypisania (=), 
+rownosci (==), nierownosci (!=) oraz operatora tablicowego ([]). 
+W parametrach szablonu sa podane typy zwracane elementow tablicy. 
+Jesli chcemy, aby elementy tablicy byly typu double, wystarczy dopisac 
+slowo double jako parametr wywolania programu:
+./array double
+Natomiast jesli chcemy, żeby typem zwracanym byl int wystarczy dopisac
+int:
+./array int
+Jesli nie podajemy zadnego parametru wywolania, program domyslnie przyjmuje 
+int:
+./array
+
