@@ -1,0 +1,48 @@
+
+***** Zadanie 10.11 (implementacja klasy "Polynomial") *****
+
+Program wykonuje dzialania arytmetyczne na dwoch wielomianach. 
+W pierwszej kolejnosci program pobiera od użytkownika liczbe wyrazow 
+pierwszego wielomianu. Pozniej, w zalezności od ilosci wyrazow, odpowiednia
+ilosc wspolczynnikow i poteg. Nastepnie program pobiera analogiczny zestaw 
+danych dla drugiego wielomianu.   
+Klasa "Polynomial" posiada konstruktor, destruktor, setter, getter oraz 
+przeladowane operatory (+, -, *, +=, -=, *=).
+
+Przyklad uzycia programu:
+Chcemy wykonac operacje na wielomianach postaci 1x+2x²+3x³+4x⁴ i 2x⁴. 
+*****Program poprosi o wprowadzenie odpowiedniej ilosci liczb *****
+
+Prosze wprowadzic liczbe wyrazow wielomianu: 4
+
+Prosze wprowadzic wspolczynnik: 1
+Prosze wprowadzic potege: 1
+
+Prosze wprowadzic wspolczynnik: 2
+Prosze wprowadzic potege: 2
+
+Prosze wprowadzic wspolczynnik: 3
+Prosze wprowadzic potege: 3
+
+Prosze wprowadzic wspolczynnik: 4
+Prosze wprowadzic potege: 4
+
+Prosze wprowadzic liczbe wyrazow wielomianu: 1
+
+Prosze wprowadzic wspolczynnik: 2
+Prosze wprowadzic potege: 4
+
+***** W rezultacie uzyskamy *****
+
+Pierwszy wielomian            1x+2x²+3x³+4x⁴
+Drugi wielomian               2x⁴
+
+Suma wielomianow              6x⁴+1x+2x²+3x³
+Przypisanie sumy (+=)         6x⁴+1x+2x²+3x³
+
+Roznica wielomianow           1x+2x²+3x³+2x⁴
+Przypisanie roznicy (-=)      1x+2x²+3x³+2x⁴
+
+Iloczyn wielomianow           2x⁵+4x⁶+6x⁷+8x⁸
+Przypisanie iloczynu (*=)     2x⁵+4x⁶+6x⁷+8x⁸
+
